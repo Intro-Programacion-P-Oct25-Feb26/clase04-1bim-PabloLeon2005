@@ -28,5 +28,7 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        // El \t crea un TAB es decir genera un tabulador antes de leer la variable
+        // El \n hace un salto de linea, es decir pasa a la siguiente linea de codigo
     }
 }
