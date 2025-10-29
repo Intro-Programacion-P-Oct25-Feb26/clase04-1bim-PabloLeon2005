@@ -18,5 +18,12 @@ public class Ejemplo04 {
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
+        // La diferencia entre "println" y "print" es que println imprime los datos tal cual estan y se ven en el codigo, en cambio print imprime todo y lo coloca en una sola fila
+        
+        System.out.println("-----------------------");
+        System.out.println(nombreEstudiante + " ");
+        System.out.println(apellidoEstudiante + " ");
+        System.out.println(nacimiento + " ");
+        System.out.println(nombreEstudiante + " ");
     }
 }
