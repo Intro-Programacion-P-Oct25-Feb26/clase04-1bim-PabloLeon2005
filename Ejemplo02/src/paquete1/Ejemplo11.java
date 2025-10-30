@@ -35,7 +35,10 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         
-        
+            // %.2f significa que el valor que obtendra sera de DOS decimales
+            // El número lo puedo cambiar a gusto dependiendo de los 
+            // decimales que desee
+            
         System.out.printf("Asignatura 1: %s\nNota 1: %.1f",
                 nombreAsignatura1,
                 notaAsignatura1
