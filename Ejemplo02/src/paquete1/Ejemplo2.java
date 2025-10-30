@@ -31,6 +31,9 @@ public class Ejemplo2 {
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
+        // entrada.nextLine Se lo usa cuando me regreso de un Númerico a un 
+        // nextline se lo debe usar SIEMPRE!!!
+        
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
