@@ -16,10 +16,13 @@ public class Ejemplo061 {
         
         String nombreEstudiante = "Pablo Andrés";
         String apellidoEstudiante = "Guamán León";
-        int edad = 2005;
+        int edad = 20;
         String direccion = "Clodoveo Jaramillo";
         String universidad = "UTPL";
-        
+        String ciclo = "Primero";
+        String asignatura = "Introducción a la Programación";
+        String paralelo = "A";
+        String enter = "-------------------------------";
         // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
         // nacimiento);
         // En printf; 
@@ -29,8 +32,11 @@ public class Ejemplo061 {
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
         
-        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:\n\t%s"
-                + "\nDirección:\n\t%s\nUniversidad: %s", nombreEstudiante, 
-                apellidoEstudiante, edad, direccion, universidad);
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad: %s"
+                + "\nDirección:\n\n\t%s\n%s\nUniversidad: %s\nCiclo: "
+                + "%s\nAsignatura: %s\nParalelo: \n\t%s", 
+                nombreEstudiante, 
+                apellidoEstudiante, edad, direccion, enter, universidad, ciclo, 
+                asignatura, paralelo);
     }
 }
