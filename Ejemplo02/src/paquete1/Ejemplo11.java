@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo1 {
+public class Ejemplo11 {
 
     public static void main(String[] args) {
         // Ingreso de valores por teclado
