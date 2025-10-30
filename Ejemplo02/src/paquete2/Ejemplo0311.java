@@ -20,6 +20,7 @@ public class Ejemplo0311 {
         String apellido;
         int nacimiento;
         int ciclo;
+        String direccion;
         
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
@@ -34,12 +35,18 @@ public class Ejemplo0311 {
         System.out.println("Ingrese su ciclo académico en número");
         ciclo = entrada.nextInt();
         
+        entrada.nextLine();
+        
+        System.out.println("Ingrese su dirección de domicilio");
+        direccion = entrada.nextLine();
+        
         System.out.printf("Datos del estudiante\nNombre: %s\nApellido: %s\n"
-                + "Nacimiento: %d\nCiclo: %d\n", 
+                + "Nacimiento: %d\nCiclo: %d\nDirección: %s\n", 
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
+                ciclo,
+                direccion);
         // Hemos cambiando el último %s por un %d Ya que la última variable es 
         // de tipo decimal 
     }
